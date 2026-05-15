@@ -1,0 +1,22 @@
+# /etc/dnf/plugins/post-transaction-actions.d/nvidia-gsp.action
+#
+# DNF4 post-transaction-actions hook for nvidia-gsp-updater.
+#
+# Requires plugin package:
+#   sudo dnf install python3-dnf-plugin-post-transaction-actions
+#
+# Plugin must be enabled in:
+#   /etc/dnf/plugins/post-transaction-actions.conf  (enabled=1)
+#
+# Syntax: package_filter:transaction_state:command
+#   package_filter   - glob on package name
+#   transaction_state - "in" (installed/updated), "out" (removed),
+#                       or "any" (both)
+#   command          - executable to run; receives no arguments
+#
+# The script is idempotent. If DNF4 fires it multiple times per
+# transaction (one per matching package), each subsequent run
+# sees "config already current" and exits without action.
+
+nvidia-*:any:/usr/local/bin/nvidia-gsp-update.sh
+kmod-nvidia-*:any:/usr/local/bin/nvidia-gsp-update.sh

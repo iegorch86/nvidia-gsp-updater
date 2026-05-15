@@ -1,0 +1,354 @@
+Dependencies resolved.
+==================================================================================================
+ Package                           Arch    Version                        Repository          Size
+==================================================================================================
+Removing:
+ nvidia-open                       noarch  3:595.71.05-1.el10             @almalinux-nvidia    0  
+Removing dependent packages:
+ cuda                              x86_64  13.2.1-1                       @almalinux-nvidia    0  
+Removing unused dependencies:
+ cuda-13-2                         x86_64  13.2.1-1                       @almalinux-nvidia    0  
+ cuda-cccl-13-2                    x86_64  13.2.75-1                      @almalinux-nvidia   15 M
+ cuda-command-line-tools-13-2      x86_64  13.2.1-1                       @almalinux-nvidia    0  
+ cuda-compiler-13-2                x86_64  13.2.1-1                       @almalinux-nvidia    0  
+ cuda-crt-13-2                     x86_64  13.2.78-1                      @almalinux-nvidia  939 k
+ cuda-cudart-13-2                  x86_64  13.2.75-1                      @almalinux-nvidia  822 k
+ cuda-cudart-devel-13-2            x86_64  13.2.75-1                      @almalinux-nvidia  6.5 M
+ cuda-culibos-devel-13-2           x86_64  13.2.75-1                      @almalinux-nvidia   96 k
+ cuda-cuobjdump-13-2               x86_64  13.2.78-1                      @almalinux-nvidia  826 k
+ cuda-cupti-13-2                   x86_64  13.2.75-1                      @almalinux-nvidia  169 M
+ cuda-cuxxfilt-13-2                x86_64  13.2.78-1                      @almalinux-nvidia  271 k
+ cuda-documentation-13-2           x86_64  13.2.75-1                      @almalinux-nvidia  539 k
+ cuda-driver-devel-13-2            x86_64  13.2.75-1                      @almalinux-nvidia  139 k
+ cuda-gdb-13-2                     x86_64  13.2.75-1                      @almalinux-nvidia   94 M
+ cuda-libraries-13-2               x86_64  13.2.1-1                       @almalinux-nvidia    0  
+ cuda-libraries-devel-13-2         x86_64  13.2.1-1                       @almalinux-nvidia    0  
+ cuda-nsight-13-2                  x86_64  13.2.75-1                      @almalinux-nvidia  113 M
+ cuda-nsight-compute-13-2          x86_64  13.2.1-1                       @almalinux-nvidia  5.3 k
+ cuda-nsight-systems-13-2          x86_64  13.2.1-1                       @almalinux-nvidia  1.7 k
+ cuda-nvcc-13-2                    x86_64  13.2.78-1                      @almalinux-nvidia  134 M
+ cuda-nvdisasm-13-2                x86_64  13.2.78-1                      @almalinux-nvidia  5.0 M
+ cuda-nvml-devel-13-2              x86_64  13.2.82-1                      @almalinux-nvidia  1.5 M
+ cuda-nvprune-13-2                 x86_64  13.2.78-1                      @almalinux-nvidia  1.6 M
+ cuda-nvrtc-13-2                   x86_64  13.2.78-1                      @almalinux-nvidia  114 M
+ cuda-nvrtc-devel-13-2             x86_64  13.2.78-1                      @almalinux-nvidia  121 M
+ cuda-nvtx-13-2                    x86_64  13.2.75-1                      @almalinux-nvidia  644 k
+ cuda-opencl-13-2                  x86_64  13.2.75-1                      @almalinux-nvidia   97 k
+ cuda-opencl-devel-13-2            x86_64  13.2.75-1                      @almalinux-nvidia  748 k
+ cuda-profiler-api-13-2            x86_64  13.2.75-1                      @almalinux-nvidia   78 k
+ cuda-runtime-13-2                 x86_64  13.2.1-1                       @almalinux-nvidia    0  
+ cuda-sandbox-devel-13-2           x86_64  13.2.82-1                      @almalinux-nvidia  150 k
+ cuda-sanitizer-13-2               x86_64  13.2.76-1                      @almalinux-nvidia   47 M
+ cuda-tileiras-13-2                x86_64  13.2.78-1                      @almalinux-nvidia   90 M
+ cuda-toolkit-13-2                 x86_64  13.2.1-1                       @almalinux-nvidia  3.3 k
+ cuda-toolkit-13-2-config-common   noarch  13.2.75-1                      @almalinux-nvidia    0  
+ cuda-toolkit-13-config-common     noarch  13.2.75-1                      @almalinux-nvidia   44  
+ cuda-toolkit-config-common        noarch  13.2.75-1                      @almalinux-nvidia   41  
+ cuda-tools-13-2                   x86_64  13.2.1-1                       @almalinux-nvidia    0  
+ cuda-visual-tools-13-2            x86_64  13.2.1-1                       @almalinux-nvidia    0  
+ egl-gbm                           x86_64  2:1.1.3-1.el10_1               @epel               29 k
+ egl-wayland2                      x86_64  1.0.1-1.el10_1                 @epel               98 k
+ egl-x11                           x86_64  1.0.5-1.el10_1                 @epel              173 k
+ gds-tools-13-2                    x86_64  1.17.1.22-1                    @almalinux-nvidia   72 M
+ java-21-openjdk                   x86_64  1:21.0.11.0.10-2.el10_2.alma.1 @appstream         1.2 M
+ java-21-openjdk-headless          x86_64  1:21.0.11.0.10-2.el10_2.alma.1 @appstream         215 M
+ kmod-nvidia-open                  x86_64  595.71.05-1.el10_1             @almalinux-nvidia   34 M
+ libcublas-13-2                    x86_64  13.4.0.1-1                     @almalinux-nvidia  537 M
+ libcublas-devel-13-2              x86_64  13.4.0.1-1                     @almalinux-nvidia  873 M
+ libcufft-13-2                     x86_64  12.2.0.46-1                    @almalinux-nvidia  278 M
+ libcufft-devel-13-2               x86_64  12.2.0.46-1                    @almalinux-nvidia  287 M
+ libcufile-13-2                    x86_64  1.17.1.22-1                    @almalinux-nvidia  3.8 M
+ libcufile-devel-13-2              x86_64  1.17.1.22-1                    @almalinux-nvidia   33 M
+ libcuobjclient-13-2               x86_64  1.1.1.22-1                     @almalinux-nvidia  510 k
+ libcuobjclient-devel-13-2         x86_64  1.1.1.22-1                     @almalinux-nvidia   77 k
+ libcurand-13-2                    x86_64  10.4.2.55-1                    @almalinux-nvidia  127 M
+ libcurand-devel-13-2              x86_64  10.4.2.55-1                    @almalinux-nvidia  129 M
+ libcusolver-13-2                  x86_64  12.2.0.1-1                     @almalinux-nvidia  262 M
+ libcusolver-devel-13-2            x86_64  12.2.0.1-1                     @almalinux-nvidia  200 M
+ libcusparse-13-2                  x86_64  12.7.10.1-1                    @almalinux-nvidia  160 M
+ libcusparse-devel-13-2            x86_64  12.7.10.1-1                    @almalinux-nvidia  359 M
+ libnpp-13-2                       x86_64  13.1.0.48-1                    @almalinux-nvidia  160 M
+ libnpp-devel-13-2                 x86_64  13.1.0.48-1                    @almalinux-nvidia  186 M
+ libnvfatbin-13-2                  x86_64  13.2.78-1                      @almalinux-nvidia  1.4 M
+ libnvfatbin-devel-13-2            x86_64  13.2.78-1                      @almalinux-nvidia  3.2 M
+ libnvidia-cfg                     x86_64  3:595.71.05-1.el10             @almalinux-nvidia  382 k
+ libnvidia-fbc                     x86_64  3:595.71.05-1.el10             @almalinux-nvidia  240 k
+ libnvidia-gpucomp                 x86_64  3:595.71.05-1.el10             @almalinux-nvidia   90 M
+ libnvidia-ml                      x86_64  3:595.71.05-1.el10             @almalinux-nvidia  2.5 M
+ libnvjitlink-13-2                 x86_64  13.2.78-1                      @almalinux-nvidia   96 M
+ libnvjitlink-devel-13-2           x86_64  13.2.78-1                      @almalinux-nvidia  124 M
+ libnvjpeg-13-2                    x86_64  13.1.0.48-1                    @almalinux-nvidia  5.8 M
+ libnvjpeg-devel-13-2              x86_64  13.1.0.48-1                    @almalinux-nvidia  6.5 M
+ libnvptxcompiler-13-2             x86_64  13.2.78-1                      @almalinux-nvidia  101 M
+ libnvvm-13-2                      x86_64  13.2.78-1                      @almalinux-nvidia  140 M
+ libvdpau                          x86_64  1.5-8.el10                     @appstream          21 k
+ lksctp-tools                      x86_64  1.0.21-1.el10                  @baseos            264 k
+ mkfontscale                       x86_64  1.2.2-8.el10                   @appstream          49 k
+ nsight-compute-2026.1.1           x86_64  2026.1.1.2-1                   @almalinux-nvidia  1.2 G
+ nsight-systems-2025.6.3           x86_64  2025.6.3.541_256337736014v0-0  @almalinux-nvidia  1.0 G
+ nvidia-driver                     x86_64  3:595.71.05-1.el10             @almalinux-nvidia   18 M
+ nvidia-driver-cuda                x86_64  3:595.71.05-1.el10             @almalinux-nvidia  1.5 M
+ nvidia-driver-cuda-libs           x86_64  3:595.71.05-1.el10             @almalinux-nvidia  429 M
+ nvidia-driver-libs                x86_64  3:595.71.05-1.el10             @almalinux-nvidia  255 M
+ nvidia-kmod-common                noarch  3:595.71.05-1.el10             @almalinux-nvidia   98 M
+ nvidia-libXNVCtrl                 x86_64  3:595.71.05-1.el10             @almalinux-nvidia   48 k
+ nvidia-modprobe                   x86_64  3:595.71.05-1.el10             @almalinux-nvidia   55 k
+ nvidia-persistenced               x86_64  3:595.71.05-1.el10             @almalinux-nvidia   62 k
+ nvidia-settings                   x86_64  3:595.71.05-1.el10             @almalinux-nvidia  1.7 M
+ ocl-icd                           x86_64  2.3.2-8.el10                   @baseos            195 k
+ opencl-filesystem                 noarch  1.0-22.el10                    @appstream           0  
+ ttmkfdir                          x86_64  3.0.9-72.el10                  @appstream         123 k
+ tzdata-java                       noarch  2026a-1.el10                   @appstream         100 k
+ xorg-x11-fonts-Type1              noarch  7.5-40.el10                    @appstream         863 k
+
+Transaction Summary
+==================================================================================================
+Remove  95 Packages
+
+Freed space: 8.4 G
+Is this ok [y/N]: Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Erasing          : cuda-13.2.1-1.x86_64                                  1/95 
+  Erasing          : nvidia-open-3:595.71.05-1.el10.noarch                 2/95 
+  Erasing          : cuda-13-2-13.2.1-1.x86_64                             3/95 
+  Erasing          : cuda-toolkit-13-2-13.2.1-1.x86_64                     4/95 
+  Erasing          : cuda-compiler-13-2-13.2.1-1.x86_64                    5/95 
+  Erasing          : nvidia-driver-cuda-3:595.71.05-1.el10.x86_64          6/95 
+  Erasing          : nvidia-settings-3:595.71.05-1.el10.x86_64             7/95 
+  Erasing          : cuda-tools-13-2-13.2.1-1.x86_64                       8/95 
+  Erasing          : cuda-command-line-tools-13-2-13.2.1-1.x86_64          9/95 
+  Erasing          : cuda-visual-tools-13-2-13.2.1-1.x86_64               10/95 
+  Erasing          : cuda-libraries-devel-13-2-13.2.1-1.x86_64            11/95 
+  Erasing          : cuda-cudart-devel-13-2-13.2.75-1.x86_64              12/95 
+  Erasing          : cuda-sandbox-devel-13-2-13.2.82-1.x86_64             13/95 
+  Erasing          : cuda-opencl-devel-13-2-13.2.75-1.x86_64              14/95 
+  Erasing          : libcuobjclient-devel-13-2-1.1.1.22-1.x86_64          15/95 
+  Erasing          : cuda-nsight-13-2-13.2.75-1.x86_64                    16/95 
+  Erasing          : cuda-nsight-compute-13-2-13.2.1-1.x86_64             17/95 
+  Erasing          : cuda-nsight-systems-13-2-13.2.1-1.x86_64             18/95 
+  Erasing          : cuda-tileiras-13-2-13.2.78-1.x86_64                  19/95 
+  Erasing          : cuda-nvcc-13-2-13.2.78-1.x86_64                      20/95 
+  Erasing          : cuda-runtime-13-2-13.2.1-1.x86_64                    21/95 
+  Erasing          : cuda-libraries-13-2-13.2.1-1.x86_64                  22/95 
+  Erasing          : java-21-openjdk-1:21.0.11.0.10-2.el10_2.alma.1.x86   23/95 
+  Running scriptlet: java-21-openjdk-1:21.0.11.0.10-2.el10_2.alma.1.x86   23/95 
+  Erasing          : xorg-x11-fonts-Type1-7.5-40.el10.noarch              24/95 
+  Running scriptlet: xorg-x11-fonts-Type1-7.5-40.el10.noarch              24/95 
+  Running scriptlet: nvidia-driver-3:595.71.05-1.el10.x86_64              25/95 
+Removed '/etc/systemd/system/systemd-hibernate.service.wants/nvidia-hibernate.service'.
+Removed '/etc/systemd/system/multi-user.target.wants/nvidia-powerd.service'.
+Removed '/etc/systemd/system/systemd-hibernate.service.wants/nvidia-resume.service'.
+Removed '/etc/systemd/system/systemd-suspend.service.wants/nvidia-resume.service'.
+Removed '/etc/systemd/system/systemd-suspend-then-hibernate.service.wants/nvidia-resume.service'.
+Removed '/etc/systemd/system/systemd-suspend.service.wants/nvidia-suspend.service'.
+Removed '/etc/systemd/system/systemd-suspend-then-hibernate.service.wants/nvidia-suspend-then-hibernate.service'.
+
+  Erasing          : nvidia-driver-3:595.71.05-1.el10.x86_64              25/95 
+  Running scriptlet: nvidia-driver-3:595.71.05-1.el10.x86_64              25/95 
+  Erasing          : nvidia-driver-libs-3:595.71.05-1.el10.x86_64         26/95 
+  Running scriptlet: java-21-openjdk-headless-1:21.0.11.0.10-2.el10_2.a   27/95 
+  Erasing          : java-21-openjdk-headless-1:21.0.11.0.10-2.el10_2.a   27/95 
+  Erasing          : cuda-cudart-13-2-13.2.75-1.x86_64                    28/95 
+  Running scriptlet: cuda-cudart-13-2-13.2.75-1.x86_64                    28/95 
+  Erasing          : cuda-opencl-13-2-13.2.75-1.x86_64                    29/95 
+  Running scriptlet: cuda-opencl-13-2-13.2.75-1.x86_64                    29/95 
+  Erasing          : libcuobjclient-13-2-1.1.1.22-1.x86_64                30/95 
+  Running scriptlet: nvidia-kmod-common-3:595.71.05-1.el10.noarch         31/95 
+  Erasing          : nvidia-kmod-common-3:595.71.05-1.el10.noarch         31/95 
+  Erasing          : libcufft-devel-13-2-12.2.0.46-1.x86_64               32/95 
+  Erasing          : libcufft-13-2-12.2.0.46-1.x86_64                     33/95 
+  Running scriptlet: libcufft-13-2-12.2.0.46-1.x86_64                     33/95 
+  Erasing          : libcurand-devel-13-2-10.4.2.55-1.x86_64              34/95 
+  Erasing          : libcurand-13-2-10.4.2.55-1.x86_64                    35/95 
+  Running scriptlet: libcurand-13-2-10.4.2.55-1.x86_64                    35/95 
+  Erasing          : libcusolver-devel-13-2-12.2.0.1-1.x86_64             36/95 
+  Erasing          : libcusolver-13-2-12.2.0.1-1.x86_64                   37/95 
+  Running scriptlet: libcusolver-13-2-12.2.0.1-1.x86_64                   37/95 
+  Erasing          : libcusparse-devel-13-2-12.7.10.1-1.x86_64            38/95 
+  Erasing          : libcusparse-13-2-12.7.10.1-1.x86_64                  39/95 
+  Running scriptlet: libcusparse-13-2-12.7.10.1-1.x86_64                  39/95 
+  Erasing          : libnpp-devel-13-2-13.1.0.48-1.x86_64                 40/95 
+  Erasing          : libnpp-13-2-13.1.0.48-1.x86_64                       41/95 
+  Running scriptlet: libnpp-13-2-13.1.0.48-1.x86_64                       41/95 
+  Erasing          : libnvjpeg-devel-13-2-13.1.0.48-1.x86_64              42/95 
+  Erasing          : libnvjpeg-13-2-13.1.0.48-1.x86_64                    43/95 
+  Running scriptlet: libnvjpeg-13-2-13.1.0.48-1.x86_64                    43/95 
+  Erasing          : cuda-nvrtc-devel-13-2-13.2.78-1.x86_64               44/95 
+  Erasing          : libcublas-devel-13-2-13.4.0.1-1.x86_64               45/95 
+  Erasing          : libcublas-13-2-13.4.0.1-1.x86_64                     46/95 
+  Running scriptlet: libcublas-13-2-13.4.0.1-1.x86_64                     46/95 
+  Erasing          : libcufile-devel-13-2-1.17.1.22-1.x86_64              47/95 
+  Running scriptlet: libcufile-13-2-1.17.1.22-1.x86_64                    48/95 
+  Erasing          : libcufile-13-2-1.17.1.22-1.x86_64                    48/95 
+  Running scriptlet: libcufile-13-2-1.17.1.22-1.x86_64                    48/95 
+  Erasing          : libnvfatbin-devel-13-2-13.2.78-1.x86_64              49/95 
+  Erasing          : libnvfatbin-13-2-13.2.78-1.x86_64                    50/95 
+  Running scriptlet: libnvfatbin-13-2-13.2.78-1.x86_64                    50/95 
+  Erasing          : libnvjitlink-devel-13-2-13.2.78-1.x86_64             51/95 
+  Erasing          : libnvjitlink-13-2-13.2.78-1.x86_64                   52/95 
+  Running scriptlet: libnvjitlink-13-2-13.2.78-1.x86_64                   52/95 
+  Running scriptlet: nvidia-persistenced-3:595.71.05-1.el10.x86_64        53/95 
+Removed '/etc/systemd/system/multi-user.target.wants/nvidia-persistenced.service'.
+
+  Erasing          : nvidia-persistenced-3:595.71.05-1.el10.x86_64        53/95 
+  Running scriptlet: nvidia-persistenced-3:595.71.05-1.el10.x86_64        53/95 
+  Erasing          : libnvidia-fbc-3:595.71.05-1.el10.x86_64              54/95 
+  Erasing          : cuda-toolkit-13-2-config-common-13.2.75-1.noarch     55/95 
+  Running scriptlet: cuda-toolkit-13-2-config-common-13.2.75-1.noarch     55/95 
+  Erasing          : cuda-toolkit-13-config-common-13.2.75-1.noarch       56/95 
+  Erasing          : cuda-toolkit-config-common-13.2.75-1.noarch          57/95 
+  Erasing          : cuda-culibos-devel-13-2-13.2.75-1.x86_64             58/95 
+  Erasing          : tzdata-java-2026a-1.el10.noarch                      59/95 
+  Erasing          : cuda-crt-13-2-13.2.78-1.x86_64                       60/95 
+  Erasing          : libnvptxcompiler-13-2-13.2.78-1.x86_64               61/95 
+  Running scriptlet: nsight-systems-2025.6.3-2025.6.3.541_256337736014v   62/95 
+  Erasing          : nsight-systems-2025.6.3-2025.6.3.541_256337736014v   62/95 
+  Erasing          : nsight-compute-2026.1.1-2026.1.1.2-1.x86_64          63/95 
+  Running scriptlet: nsight-compute-2026.1.1-2026.1.1.2-1.x86_64          63/95 
+  Erasing          : cuda-cccl-13-2-13.2.75-1.x86_64                      64/95 
+  Erasing          : cuda-profiler-api-13-2-13.2.75-1.x86_64              65/95 
+  Erasing          : cuda-nvml-devel-13-2-13.2.82-1.x86_64                66/95 
+  Erasing          : cuda-gdb-13-2-13.2.75-1.x86_64                       67/95 
+  Erasing          : cuda-nvdisasm-13-2-13.2.78-1.x86_64                  68/95 
+  Erasing          : cuda-sanitizer-13-2-13.2.76-1.x86_64                 69/95 
+  Erasing          : gds-tools-13-2-1.17.1.22-1.x86_64                    70/95 
+  Erasing          : opencl-filesystem-1.0-22.el10.noarch                 71/95 
+  Erasing          : cuda-cuobjdump-13-2-13.2.78-1.x86_64                 72/95 
+  Erasing          : cuda-cuxxfilt-13-2-13.2.78-1.x86_64                  73/95 
+  Erasing          : cuda-nvprune-13-2-13.2.78-1.x86_64                   74/95 
+  Erasing          : cuda-documentation-13-2-13.2.75-1.x86_64             75/95 
+  Erasing          : nvidia-driver-cuda-libs-3:595.71.05-1.el10.x86_64    76/95 
+  Running scriptlet: kmod-nvidia-open-595.71.05-1.el10_1.x86_64           77/95 
+  Erasing          : kmod-nvidia-open-595.71.05-1.el10_1.x86_64           77/95 
+  Running scriptlet: kmod-nvidia-open-595.71.05-1.el10_1.x86_64           77/95 
+dracut-install: ERROR: installing '/lib/firmware/nvidia/595.71.05/gsp_ga10x.bin'
+dracut[E]: FAILED: /usr/lib/dracut/dracut-install -D /var/tmp/dracut.dm76ZQL/initramfs -a -f /lib/firmware/nvidia/595.71.05/gsp_ga10x.bin
+dracut-install: ERROR: installing '/lib/firmware/nvidia/595.71.05/gsp_ga10x.bin'
+dracut[E]: FAILED: /usr/lib/dracut/dracut-install -D /var/tmp/dracut.dFHdU6r/initramfs -a -f /lib/firmware/nvidia/595.71.05/gsp_ga10x.bin
+
+  Erasing          : libnvidia-cfg-3:595.71.05-1.el10.x86_64              78/95 
+  Erasing          : libnvidia-gpucomp-3:595.71.05-1.el10.x86_64          79/95 
+  Erasing          : libnvidia-ml-3:595.71.05-1.el10.x86_64               80/95 
+  Erasing          : cuda-nvrtc-13-2-13.2.78-1.x86_64                     81/95 
+  Running scriptlet: cuda-nvrtc-13-2-13.2.78-1.x86_64                     81/95 
+  Erasing          : nvidia-modprobe-3:595.71.05-1.el10.x86_64            82/95 
+  Erasing          : lksctp-tools-1.0.21-1.el10.x86_64                    83/95 
+  Erasing          : egl-gbm-2:1.1.3-1.el10_1.x86_64                      84/95 
+  Erasing          : egl-wayland2-1.0.1-1.el10_1.x86_64                   85/95 
+  Erasing          : egl-x11-1.0.5-1.el10_1.x86_64                        86/95 
+  Erasing          : cuda-driver-devel-13-2-13.2.75-1.x86_64              87/95 
+  Erasing          : libvdpau-1.5-8.el10.x86_64                           88/95 
+  Erasing          : mkfontscale-1.2.2-8.el10.x86_64                      89/95 
+  Erasing          : ttmkfdir-3.0.9-72.el10.x86_64                        90/95 
+  Erasing          : libnvvm-13-2-13.2.78-1.x86_64                        91/95 
+  Erasing          : cuda-cupti-13-2-13.2.75-1.x86_64                     92/95 
+  Erasing          : cuda-nvtx-13-2-13.2.75-1.x86_64                      93/95 
+  Erasing          : nvidia-libXNVCtrl-3:595.71.05-1.el10.x86_64          94/95 
+  Erasing          : ocl-icd-2.3.2-8.el10.x86_64                          95/95 
+  Running scriptlet: ocl-icd-2.3.2-8.el10.x86_64                          95/95 
+post-transaction-actions: No NVIDIA firmware found, removing orphan config /etc/dracut.conf.d/nvidia-gsp.conf
+Done. Reboot to apply.
+
+
+Removed:
+  cuda-13.2.1-1.x86_64                                                          
+  cuda-13-2-13.2.1-1.x86_64                                                     
+  cuda-cccl-13-2-13.2.75-1.x86_64                                               
+  cuda-command-line-tools-13-2-13.2.1-1.x86_64                                  
+  cuda-compiler-13-2-13.2.1-1.x86_64                                            
+  cuda-crt-13-2-13.2.78-1.x86_64                                                
+  cuda-cudart-13-2-13.2.75-1.x86_64                                             
+  cuda-cudart-devel-13-2-13.2.75-1.x86_64                                       
+  cuda-culibos-devel-13-2-13.2.75-1.x86_64                                      
+  cuda-cuobjdump-13-2-13.2.78-1.x86_64                                          
+  cuda-cupti-13-2-13.2.75-1.x86_64                                              
+  cuda-cuxxfilt-13-2-13.2.78-1.x86_64                                           
+  cuda-documentation-13-2-13.2.75-1.x86_64                                      
+  cuda-driver-devel-13-2-13.2.75-1.x86_64                                       
+  cuda-gdb-13-2-13.2.75-1.x86_64                                                
+  cuda-libraries-13-2-13.2.1-1.x86_64                                           
+  cuda-libraries-devel-13-2-13.2.1-1.x86_64                                     
+  cuda-nsight-13-2-13.2.75-1.x86_64                                             
+  cuda-nsight-compute-13-2-13.2.1-1.x86_64                                      
+  cuda-nsight-systems-13-2-13.2.1-1.x86_64                                      
+  cuda-nvcc-13-2-13.2.78-1.x86_64                                               
+  cuda-nvdisasm-13-2-13.2.78-1.x86_64                                           
+  cuda-nvml-devel-13-2-13.2.82-1.x86_64                                         
+  cuda-nvprune-13-2-13.2.78-1.x86_64                                            
+  cuda-nvrtc-13-2-13.2.78-1.x86_64                                              
+  cuda-nvrtc-devel-13-2-13.2.78-1.x86_64                                        
+  cuda-nvtx-13-2-13.2.75-1.x86_64                                               
+  cuda-opencl-13-2-13.2.75-1.x86_64                                             
+  cuda-opencl-devel-13-2-13.2.75-1.x86_64                                       
+  cuda-profiler-api-13-2-13.2.75-1.x86_64                                       
+  cuda-runtime-13-2-13.2.1-1.x86_64                                             
+  cuda-sandbox-devel-13-2-13.2.82-1.x86_64                                      
+  cuda-sanitizer-13-2-13.2.76-1.x86_64                                          
+  cuda-tileiras-13-2-13.2.78-1.x86_64                                           
+  cuda-toolkit-13-2-13.2.1-1.x86_64                                             
+  cuda-toolkit-13-2-config-common-13.2.75-1.noarch                              
+  cuda-toolkit-13-config-common-13.2.75-1.noarch                                
+  cuda-toolkit-config-common-13.2.75-1.noarch                                   
+  cuda-tools-13-2-13.2.1-1.x86_64                                               
+  cuda-visual-tools-13-2-13.2.1-1.x86_64                                        
+  egl-gbm-2:1.1.3-1.el10_1.x86_64                                               
+  egl-wayland2-1.0.1-1.el10_1.x86_64                                            
+  egl-x11-1.0.5-1.el10_1.x86_64                                                 
+  gds-tools-13-2-1.17.1.22-1.x86_64                                             
+  java-21-openjdk-1:21.0.11.0.10-2.el10_2.alma.1.x86_64                         
+  java-21-openjdk-headless-1:21.0.11.0.10-2.el10_2.alma.1.x86_64                
+  kmod-nvidia-open-595.71.05-1.el10_1.x86_64                                    
+  libcublas-13-2-13.4.0.1-1.x86_64                                              
+  libcublas-devel-13-2-13.4.0.1-1.x86_64                                        
+  libcufft-13-2-12.2.0.46-1.x86_64                                              
+  libcufft-devel-13-2-12.2.0.46-1.x86_64                                        
+  libcufile-13-2-1.17.1.22-1.x86_64                                             
+  libcufile-devel-13-2-1.17.1.22-1.x86_64                                       
+  libcuobjclient-13-2-1.1.1.22-1.x86_64                                         
+  libcuobjclient-devel-13-2-1.1.1.22-1.x86_64                                   
+  libcurand-13-2-10.4.2.55-1.x86_64                                             
+  libcurand-devel-13-2-10.4.2.55-1.x86_64                                       
+  libcusolver-13-2-12.2.0.1-1.x86_64                                            
+  libcusolver-devel-13-2-12.2.0.1-1.x86_64                                      
+  libcusparse-13-2-12.7.10.1-1.x86_64                                           
+  libcusparse-devel-13-2-12.7.10.1-1.x86_64                                     
+  libnpp-13-2-13.1.0.48-1.x86_64                                                
+  libnpp-devel-13-2-13.1.0.48-1.x86_64                                          
+  libnvfatbin-13-2-13.2.78-1.x86_64                                             
+  libnvfatbin-devel-13-2-13.2.78-1.x86_64                                       
+  libnvidia-cfg-3:595.71.05-1.el10.x86_64                                       
+  libnvidia-fbc-3:595.71.05-1.el10.x86_64                                       
+  libnvidia-gpucomp-3:595.71.05-1.el10.x86_64                                   
+  libnvidia-ml-3:595.71.05-1.el10.x86_64                                        
+  libnvjitlink-13-2-13.2.78-1.x86_64                                            
+  libnvjitlink-devel-13-2-13.2.78-1.x86_64                                      
+  libnvjpeg-13-2-13.1.0.48-1.x86_64                                             
+  libnvjpeg-devel-13-2-13.1.0.48-1.x86_64                                       
+  libnvptxcompiler-13-2-13.2.78-1.x86_64                                        
+  libnvvm-13-2-13.2.78-1.x86_64                                                 
+  libvdpau-1.5-8.el10.x86_64                                                    
+  lksctp-tools-1.0.21-1.el10.x86_64                                             
+  mkfontscale-1.2.2-8.el10.x86_64                                               
+  nsight-compute-2026.1.1-2026.1.1.2-1.x86_64                                   
+  nsight-systems-2025.6.3-2025.6.3.541_256337736014v0-0.x86_64                  
+  nvidia-driver-3:595.71.05-1.el10.x86_64                                       
+  nvidia-driver-cuda-3:595.71.05-1.el10.x86_64                                  
+  nvidia-driver-cuda-libs-3:595.71.05-1.el10.x86_64                             
+  nvidia-driver-libs-3:595.71.05-1.el10.x86_64                                  
+  nvidia-kmod-common-3:595.71.05-1.el10.noarch                                  
+  nvidia-libXNVCtrl-3:595.71.05-1.el10.x86_64                                   
+  nvidia-modprobe-3:595.71.05-1.el10.x86_64                                     
+  nvidia-open-3:595.71.05-1.el10.noarch                                         
+  nvidia-persistenced-3:595.71.05-1.el10.x86_64                                 
+  nvidia-settings-3:595.71.05-1.el10.x86_64                                     
+  ocl-icd-2.3.2-8.el10.x86_64                                                   
+  opencl-filesystem-1.0-22.el10.noarch                                          
+  ttmkfdir-3.0.9-72.el10.x86_64                                                 
+  tzdata-java-2026a-1.el10.noarch                                               
+  xorg-x11-fonts-Type1-7.5-40.el10.noarch                                       
+
+Complete!

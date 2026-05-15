@@ -1,0 +1,21 @@
+# /etc/dnf/libdnf5-plugins/actions.d/nvidia-gsp.actions
+#
+# DNF5 actions plugin hook for nvidia-gsp-updater.
+#
+# Requires plugin package:
+#   sudo dnf install libdnf5-plugin-actions
+#
+# Syntax: callback:package_filter:direction:options:command
+#   callback        - DNF5 hook point; we use "post_transaction"
+#   package_filter  - glob on package NEVRA
+#   direction       - "in" (installed/updated), "out" (removed),
+#                     empty (both directions)
+#   options         - raise_error=1 (etc.); empty by default
+#   command         - executable to run
+#
+# DNF5 deduplicates identical commands within a transaction —
+# the script runs once per transaction regardless of how many
+# matching packages are in scope.
+
+post_transaction:nvidia-*:::/usr/local/bin/nvidia-gsp-update.sh
+post_transaction:kmod-nvidia-*:::/usr/local/bin/nvidia-gsp-update.sh
