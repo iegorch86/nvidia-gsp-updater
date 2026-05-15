@@ -12,8 +12,11 @@
 #   5. NVIDIA NOT installed, config absent    -> do nothing
 #
 # Tested on AlmaLinux 10.1, NVIDIA driver 595.x, Ampere GPU (RTX A2000).
-# Designed to work on any NVIDIA GPU family that uses GSP firmware
-# (Ampere, Ada, Hopper, Blackwell, etc.) via gsp_*.bin glob matching.
+# Designed to work on any NVIDIA GPU family that uses GSP firmware.
+# GSP (GPU System Processor) is present from the Turing generation
+# onward; the open NVIDIA kernel module requires it. So this covers
+# Turing, Ampere, Ada, Hopper, Blackwell, etc. — via gsp_*.bin glob
+# matching, no per-family code.
 #
 # Usage:
 #   Automatic (recommended): triggered by DNF5 actions plugin hook
@@ -75,7 +78,8 @@ fi
 # Find all GSP firmware files for the newest version.
 #
 # Glob matches every gsp_*.bin file — works across all GPU
-# families that use GSP firmware:
+# families that use GSP firmware (Turing onward):
+#   gsp_tu10x.bin  (Turing — RTX 20xx, GTX 16xx)
 #   gsp_ga10x.bin  (Ampere — RTX 30xx, RTX Axxxx)
 #   gsp_ad10x.bin  (Ada — RTX 40xx)
 #   gsp_gh100.bin  (Hopper — data center)
@@ -88,8 +92,8 @@ fi
 GSP_FILES=("$FW_DIR/$NEW"/gsp_*.bin)
 if [[ ! -e "${GSP_FILES[0]}" ]]; then
     echo "No gsp_*.bin files in $FW_DIR/$NEW"
-    echo "Your GPU may not need GSP firmware (pre-Ampere, or an"
-    echo "NVIDIA generation that doesn't require it)."
+    echo "Your GPU may not need GSP firmware (pre-Turing GPUs do not"
+    echo "use GSP; the open NVIDIA driver requires Turing or newer)."
     exit 0
 fi
 

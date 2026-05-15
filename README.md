@@ -8,7 +8,7 @@ If you've ever had to manually edit `/etc/dracut.conf.d/nvidia-gsp.conf` and re-
 
 ## The problem this solves
 
-On AlmaLinux 10.x (and likely RHEL 10 / Rocky 10) with Ampere or newer NVIDIA GPUs, the GSP firmware must be included in initramfs. If it isn't, every boot logs errors like:
+On AlmaLinux 10.x (and likely RHEL 10 / Rocky 10) with Turing-generation or newer NVIDIA GPUs, the GSP firmware must be included in initramfs. (GSP — GPU System Processor — exists from Turing onward, and the open NVIDIA kernel module requires it.) If the firmware isn't in initramfs, every boot logs errors like:
 
 ```
 nvidia 0000:01:00.0: Direct firmware load for nvidia/595.71.05/gsp_ga10x.bin failed with error -2
@@ -59,7 +59,7 @@ If you test it on a configuration not yet ticked, please open an issue or PR to 
 ## Requirements
 
 - **OS**: AlmaLinux 10.x (most likely also RHEL 10, Rocky 10, and other EL10 derivatives)
-- **GPU**: NVIDIA card that uses GSP firmware (Ampere, Ada, Hopper, Blackwell)
+- **GPU**: NVIDIA card that uses GSP firmware — Turing generation or newer (Turing, Ampere, Ada, Hopper, Blackwell)
 - **DNF actions plugin**:
   - DNF4: `python3-dnf-plugin-post-transaction-actions`
   - DNF5: `libdnf5-plugin-actions`
