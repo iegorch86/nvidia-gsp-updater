@@ -193,7 +193,7 @@ No RPM database queries, no package-name guessing.
 
 For supported GPUs spanning multiple architectures, the script automatically includes ALL `gsp_*.bin` firmware files shipped by the driver, not just one. This is called Option A in the codebase. The cost is a slightly larger initramfs (an extra ~16 MB in our test); the benefit is future-proofing across NVIDIA generations without code changes.
 
-Kernel updates are handled automatically. The dracut config this tool maintains is not kernel-specific. When a new kernel is installed, dracut reads that config while building the new kernel's initramfs, so the GSP firmware is included automatically — the tool's hook does not even need to fire. You don't need to do anything when the kernel updates. This was verified on a real kernel update: after the tool was installed, a subsequent dnf kernel upgrade produced a correct initramfs for the new kernel with the firmware in place, with no manual intervention.
+**Kernel updates are handled automatically. The dracut config this tool maintains is not kernel-specific. When a new kernel is installed, dracut reads that config while building the new kernel's initramfs, so the GSP firmware is included automatically — the tool's hook does not even need to fire. You don't need to do anything when the kernel updates. This was verified on a real kernel update: after the tool was installed, a subsequent dnf kernel upgrade produced a correct initramfs for the new kernel with the firmware in place, with no manual intervention.**
 
 ---
 
