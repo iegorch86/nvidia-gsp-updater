@@ -210,7 +210,6 @@ This script was tested end-to-end on AlmaLinux 10.1 bare metal with NVIDIA drive
 7. Verify hook fired correctly during the transaction
 8. Reboot
 9. Verify NVIDIA fully functional again
-10. Document automatic kernel-update handling 
 
 Test logs are preserved in `docs/test-logs/` for reference.
 
